@@ -1,0 +1,153 @@
+/* CartPage.css */
+.cart-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cart-header h1 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .cart-header p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .empty-cart-message {
+    text-align: center;
+    font-size: 1.2em;
+    color: #888;
+  }
+  
+  .cart-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cart-item-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cart-item:last-child {
+    border-bottom: none;
+  }
+  
+  .cart-item-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 15px;
+    border: 1px solid #ddd;
+    object-fit: cover;
+  }
+  
+  .cart-item-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cart-item-name {
+    font-size: 1.1em;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .cart-item-price {
+    font-size: 1em;
+    color: #4CAF50;
+    margin: 5px 0;
+  }
+  
+  .remove-button {
+    padding: 8px 12px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    align-self: flex-start;
+    transition: background-color 0.3s ease;
+  }
+  
+  .remove-button:hover {
+    background-color: #e65a50;
+  }
+  
+  .cart-summary {
+    text-align: right;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .cart-summary h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 0;
+  }
+  
+  .total-price {
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  
+  .checkout-button {
+    margin-top: 15px;
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .checkout-button:hover {
+    background-color: #45a049;
+  }
+  
+  .share-cart-button {
+    padding: 12px 20px;
+    background-color: #4a90e2; /* Blue tone, providing a fresh visual effect */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold; /* Bold font, increasing the importance of the button text */
+    margin-top: 20px; /* Increase the top margin, leaving space from the cart summary section */
+    width: 100%; /* Button width matches the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow, increasing the three-dimensional effect */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transition effect, making the button click and hover smoother */
+  }
+  
+  .share-cart-button:hover {
+    background-color: #357abd; /* Dark blue, providing visual feedback for the hover state */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Increase shadow when hovering, enhancing the three-dimensional effect */
+  }
+  
